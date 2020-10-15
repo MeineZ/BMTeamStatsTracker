@@ -2,7 +2,7 @@
 BakkesMod Rocket League plugin to keep track of and display team stats. It shows the number of passing plays, assists, goals, saves, and much more!
 
 Also checkout my other plugin(s):
- * SessionPlugins [(bakkesplugins.com)](https://bakkesplugins.com/plugins/view/151) [(GitHub Repo)](https://github.com/MeineZ/BMSessionPlugin)
+ * SessionPlugins ([bakkesplugins.com](https://bakkesplugins.com/plugins/view/151)) ([GitHub Repo](https://github.com/MeineZ/BMSessionPlugin))
 
 ## Installation
 You can send me a DM on Discord to receive the plugin: Meine#8883 or, if you want to build it yourself either:
