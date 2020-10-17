@@ -13,7 +13,7 @@ namespace tst // TeamStatsTracker
     // TODO : Upgrade Logger to support formatted strings (e.g : "int1: {0} ; string2: {1}")
 
 
-	static class Logger final
+	class Logger final
 	{
     public:
         // Delete copy and copy assignment functionality
@@ -35,7 +35,5 @@ namespace tst // TeamStatsTracker
 
         // Declare private properties
         static std::shared_ptr<CVarManagerWrapper> cvarManager;
-
-    public:
 	};
 }
