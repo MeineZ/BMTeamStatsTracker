@@ -1,6 +1,5 @@
 #include <utils/Logger.h>
 
-#include <bakkesmod/wrappers/cvarmanagerwrapper.h>
 
 std::shared_ptr<CVarManagerWrapper> tst::Logger::cvarManager = std::shared_ptr<CVarManagerWrapper>();
 

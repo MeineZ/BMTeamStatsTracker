@@ -14,7 +14,7 @@ void tst::TeamStatsTracker::onLoad()
 {
 	// Set up logger and log that the plugin is detected
 	Logger::GetInstance().SetCVarManagerWrapper( cvarManager );
-	TST_LOG( std::string( exports.pluginName ) + " version: " + std::string( exports.pluginVersion ) );
+	TST_LOG( exports.pluginName, " version: ", exports.pluginVersion );
 }
 
 void tst::TeamStatsTracker::onUnload()
