@@ -148,9 +148,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="TeamStatsTracker.cpp" />
+    <ClCompile Include="utils\Logger.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TeamStatsTracker.h" />
+    <ClInclude Include="utils\Logger.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\TeamStatsTracker.set" />
