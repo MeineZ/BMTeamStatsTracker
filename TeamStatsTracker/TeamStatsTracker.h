@@ -12,6 +12,8 @@ namespace tst // TeamStatsTracker
 		// Required plugin hooks
 		virtual void onLoad();
 		virtual void onUnload();
+
+		static std::shared_ptr<CVarManagerWrapper> globalCVarManager;
 	};
 }
 
