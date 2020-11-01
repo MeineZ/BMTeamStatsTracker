@@ -153,6 +153,7 @@
     <ClCompile Include="utils\Logger.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CVarNames.h" />
     <ClInclude Include="Team.h" />
     <ClInclude Include="TeamStatsTracker.h" />
     <ClInclude Include="Tracker.h" />

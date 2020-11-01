@@ -28,6 +28,9 @@
     <ClInclude Include="Team.h">
       <Filter>Resource Files</Filter>
     </ClInclude>
+    <ClInclude Include="CVarNames.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="TeamStatsTracker.cpp">
