@@ -7,6 +7,8 @@ namespace tst
 	class Team
 	{
 	public:
+		Team();
+
 		std::vector<std::string> squad;
 
 		void AddSquadMate();
