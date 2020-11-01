@@ -1,5 +1,9 @@
 #include <Team.h>
+
+#include <CVarNames.h>
+
 #include <TeamStatsTracker.h>
+
 
 tst::Team::Team() 
 {
@@ -8,13 +12,13 @@ tst::Team::Team()
 
 void tst::Team::AddSquadMate()
 {
-	auto name = tst::TeamStatsTracker::globalCVarManager->getCvar("cl_tst_new_premade_name").getStringValue();
+	auto name = tst::TeamStatsTracker::globalCVarManager->getCvar( NEW_PREMADE_NAME ).getStringValue();
 	this->squad.push_back(name);
 }
 
 void tst::Team::RemoveSquadMate()
 {
-	auto name = tst::TeamStatsTracker::globalCVarManager->getCvar("cl_tst_new_premade_name").getStringValue();
+	auto name = tst::TeamStatsTracker::globalCVarManager->getCvar( NEW_PREMADE_NAME ).getStringValue();
 	this->squad.erase(std::remove(squad.begin(), squad.end(), name), squad.end());
 }
 
