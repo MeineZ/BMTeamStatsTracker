@@ -1,1 +1,10 @@
 Team Stats Tracker
+9|Premades:
+9|user1,user2,user3
+12|Name|cl_tst_new_premade_name
+7|
+0|Add premade|cl_tst_add_premade
+0|Remove last premade|cl_tst_remove_last_premade
+0|Reset premades|cl_tst_reset_premades
+1|Automaticly detect premades (Unavailable)|cl_tst_auto_detect_premades
+1|Automaticly detect club (Unavailable)|cl_tst_auto_detect_club

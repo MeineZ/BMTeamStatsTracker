@@ -147,11 +147,15 @@
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Team.cpp" />
     <ClCompile Include="TeamStatsTracker.cpp" />
+    <ClCompile Include="Tracker.cpp" />
     <ClCompile Include="utils\Logger.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Team.h" />
     <ClInclude Include="TeamStatsTracker.h" />
+    <ClInclude Include="Tracker.h" />
     <ClInclude Include="utils\Logger.h" />
   </ItemGroup>
   <ItemGroup>
